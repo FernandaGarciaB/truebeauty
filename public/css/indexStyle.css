@@ -1,0 +1,132 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FD9981;
+
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #F57161;
+}
+
+.btn-primary2 {
+    color: #000;
+    background-color: #94d4ff;
+
+}
+
+.btn-primary2:hover {
+    color: #000;
+    background-color: #7dcafd;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #07ff28;
+}
+
+.btn-warning:hover {
+    color: #212529;
+    background-color: #01d31d;
+
+}
+
+.btn-success {
+    color: #212529;
+    background-color: #ecb202;
+}
+
+.btn-success:hover {
+    color: #212529;
+    background-color: #e0a800;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table .table {
+    background-color: #fff;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
